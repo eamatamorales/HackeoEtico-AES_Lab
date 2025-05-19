@@ -9,6 +9,9 @@ Este laboratorio en Python demuestra el uso práctico del cifrado simétrico AES
 
 - `aes_utils.py`: Funciones para generar claves, cifrar y descifrar mensajes
 - `main.py`: Script principal interactivo para probar el cifrado
+- `laboratorio_hash_pbkdf2.ipynb`: Notebook Jupyter sobre hash seguros y derivación de claves
+- `requirements.txt`: Dependencias necesarias para ejecutar el laboratorio
+- `README.md`: Instrucciones de uso
 
 ---
 
@@ -20,9 +23,15 @@ Instalar Python 3 y la librería necesaria:
 pip install cryptography
 ```
 
+Para trabajar con el notebook en VS Code:
+
+```bash
+pip install jupyterlab
+```
+
 ---
 
-## ▶️ Cómo usar
+## ▶️ Cómo usar el laboratorio AES
 
 Ejecuta el laboratorio desde la terminal:
 
@@ -32,11 +41,33 @@ python main.py
 
 ---
 
+## ▶️ Cómo usar el notebook en Jupyter Lab (opcional)
+
+1. Asegúrate de tener un entorno virtual activo
+2. Instala Jupyter Lab:
+
+```bash
+pip install jupyterlab
+```
+
+3. Ejecuta el servidor:
+
+```bash
+jupyter lab
+```
+
+4. Abre `laboratorio_hash_pbkdf2.ipynb` desde el navegador
+
+> También puedes usar Google Colab si no deseas instalar nada localmente.
+
+---
+
 ## 🧠 ¿Qué aprenderás?
 
 - Generar claves AES de forma segura  
 - Cifrar datos sensibles como contraseñas o tokens  
 - Desencriptar datos usando la clave correspondiente  
+- Derivar claves con PBKDF2HMAC  
 - Aplicar conceptos reales de protección de la información  
 
 ---
@@ -83,7 +114,8 @@ Extiende el laboratorio original para cubrir los siguientes objetivos:
 
 - [Documentación de `cryptography`](https://cryptography.io/en/latest/)
 - [AES explicado fácil (YouTube)](https://www.youtube.com/watch?v=O4xNJsjtN6E)
-- [Key Derivation](https://cryptography.io/en/latest/hazmat/primitives/key-derivation-functions/)
+- [Key Derivation Functions (PBKDF2)](https://cryptography.io/en/latest/hazmat/primitives/key-derivation-functions/)
+- [Documentación de Jupyter Lab](https://jupyter.org/)
 
 ---
 
