@@ -83,7 +83,7 @@ Extiende el laboratorio original para cubrir los siguientes objetivos:
 
 - [Documentación de `cryptography`](https://cryptography.io/en/latest/)
 - [AES explicado fácil (YouTube)](https://www.youtube.com/watch?v=O4xNJsjtN6E)
-- [PBKDF2 Key Derivation](https://cryptography.io/en/latest/hazmat/primitives/kdf/pbkdf2/)
+- [Key Derivation](https://cryptography.io/en/latest/hazmat/primitives/key-derivation-functions/)
 
 ---
 
