@@ -1,0 +1,44 @@
+
+Pasos para crear y usar un entorno virtual en macOS con Python 3.13 (VS Code)
+
+Paso 1: Crear un entorno virtual
+---------------------------------------------------------------------------------------------------
+En la terminal, dentro de tu carpeta del proyecto, ejecuta:
+
+python3.13 -m venv .venv
+
+Esto creará una carpeta `.venv` que contendrá tu entorno virtual.
+
+Paso 2: Activar el entorno virtual
+---------------------------------------------------------------------------------------------------
+Para activar el entorno virtual, ejecuta:
+
+source .venv/bin/activate
+
+Verás que tu línea de comandos cambia, indicando que el entorno está activo:
+(.venv) tu_usuario@Macbook proyecto %
+
+Paso 3: Instalar dependencias
+---------------------------------------------------------------------------------------------------
+Con el entorno activo, instala las librerías necesarias. Por ejemplo:
+
+pip install cryptography
+
+Paso 4: Guardar dependencias
+---------------------------------------------------------------------------------------------------
+Para guardar las dependencias en un archivo que puedas compartir o subir a GitHub, ejecuta:
+
+pip freeze > requirements.txt
+
+Esto crea un archivo con la lista de librerías instaladas y sus versiones exactas.
+
+
+---------------------------------------------------------------------------------------------------
+
+En caso de usar Windows, usa la siguiente referencia:
+cd ruta\a\mi\proyecto
+python -m venv .venv
+.venv\Scripts\activate
+pip install cryptography
+pip freeze > requirements.txt
+
